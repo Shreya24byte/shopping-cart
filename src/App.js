@@ -13,11 +13,11 @@ export default function App() {
       <div className="App">
         <Header cartItems={cartItems} />
         <Switch>
-          <Route path="/home">
-            <Products updateCartItems={updateCartItems} cartItems={cartItems} />
-          </Route>
           <Route path="/checkout">
             <Checkout cartItems={cartItems} updateCartItems={updateCartItems} />
+          </Route>
+          <Route path="/">
+          <Products updateCartItems={updateCartItems} cartItems={cartItems} />
           </Route>
         </Switch>
       </div>

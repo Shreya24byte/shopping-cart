@@ -3,17 +3,21 @@
         {
             "name": "Cotton Shirt",
             "info": "A shirt is a cloth garment for the upper body (from the neck to the waist). ",
-            "price": 250
+            "price": 250,
+            "image": "https://res.cloudinary.com/dypubdmrm/image/upload/v1621595843/cotton_shirt_hmslwd.jpg"
+            
         },
         {
             "name": "White T-Shirt",
            "info": "A T-shirt, is a style of fabric shirt named after the T shape of its body and sleeves. ",
-            "price": 100
+            "price": 100,
+            "image":"https://res.cloudinary.com/dypubdmrm/image/upload/v1621595845/white_t-shirt_qf2cv4.jpg"
         },
         {
             "name": "Long Sleeve Shirt",
             "info":"T-shirts have also become a medium for self-expression and advertising.",
-            "price": 150
+            "price": 150,
+            "image": "https://res.cloudinary.com/dypubdmrm/image/upload/v1621595844/long_sleeve_maztlw.jpg"
         }
     ]
 }

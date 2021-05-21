@@ -5,6 +5,7 @@ export function Products(props) {
        const updateCartItems = props.updateCartItems;
        const cartItemsProps = props.cartItems;
         updateCartItems((cartItemsProps) => [...cartItemsProps, cartItems]);
+        alert("Item added successfully");
     }
   function renderProducts(){
       if(productsJSON !== undefined){
@@ -12,7 +13,7 @@ export function Products(props) {
                 return(
                     <div className="m-3" key={productItem.name}>
                     <div className="card" style={{width: '18rem'}}>
-                    <img src="../images/cotton shirt.jpg" className="card-img-top" alt="..." />
+                    <img src={productItem.image} className="card-img-top" alt="..." height="300"/>
                     <div className="card-body">
                       <h5 className="card-title">{productItem.name}</h5>
                       <p className="card-text">{productItem.info}</p>

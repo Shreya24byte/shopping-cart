@@ -13,7 +13,9 @@ export function Checkout({ cartItems, updateCartItems }) {
             <div className="card-body">
               <div className="checkout-box container">
                 <div className="row" key={index}>
-                  <div className="col-3"></div>
+                  <div className="col-3">
+                  <img src={product.image} className="card-img-top" alt="..." height="200" width="200" />
+                  </div>
                   <div className="col-7">
                     <h4>{product.name}</h4>
                     <p>{product.info}</p>
